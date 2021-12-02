@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PGCAFSuite">
+
+<listeners>
+        <listener class-name="com.PG.Listener.TestListener"/>
+       
+    </listeners>
+
+	<test name="ScenarioTesting">
+		<classes>
+		
+			<class name="com.PG.Tests.LoginScenarios" /> 
+		
+			<class name="com.PG.Tests.ApplyingCAFWithDifferentBoards" />
+		
+			 <class name="com.PG.Tests.ApplyingCAFWithDiffernetExamType" />
+		
+			<class name="com.PG.Tests.AgeValidation" />
+		
+			<class name="com.PG.Tests.ApplyingCAFWithDiffGender" />
+		
+			<!-- <class name="com.PG.Tests.ApplyingCAFWithDiffIdentificationType" /> -->
+		
+			<class name="com.PG.Tests.AcceptanceofDuplicateIDs" />
+		
+		    <class name="com.PG.Tests.MobileNoComparison" />
+
+			<class name="com.PG.Tests.ReadOnlyCheckMobileNo" />
+			
+			<class name="com.PG.Tests.ReadOnlyCheckEmailId" />
+			
+			<class name="com.PG.Tests.AddressValidations" />
+			
+			<class name="com.PG.Tests.AcceptanceofDuplicateRollNo" />
+			
+			<class name="com.PG.Tests.DifferentGraduates" />
+			
+			<class name="com.PG.Tests.PGCAFSubmissionByAppearingCandidate" />
+			
+			 <class name="com.PG.Tests.HaveYouPassedGraduationWithDistinction" />
+			
+			<class name="com.PG.Tests.MarksComparison" />
+			
+			<class name="com.PG.Tests.CGPAComparision" />
+
+			<class name="com.PG.Tests.AggregatePercentageof10th12th" />
+			
+			<class name="com.PG.Tests.AggregatePercentageGraduate" />
+			
+			<class name="com.PG.Tests.YearofPassingValidations" />
+
+			 <class name="com.PG.Tests.AIHCADepartment" />
+			 
+			 <class name="com.PG.Tests.AnalyticalAndAppliedEconomics" />
+
+			 <class name="com.PG.Tests.AnalyticalChemistry" />
+
+			<class name="com.PG.Tests.AnthropologyAndTribalStudiesArts" /> 
+			
+			<class name="com.PG.Tests.AnthropologyArts" />
+			 
+			 <class name="com.PG.Tests.AnthropologyMSc" />
+			 
+			 <class name="com.PG.Tests.AppliedChemistry" />
+			 
+			 <class name="com.PG.Tests.AppliedGeography" /> 
+			
+			<class name="com.PG.Tests.AppliedGeology" />
+
+			<class name="com.PG.Tests.AppliedMicrobiology" />
+			
+			<class name="com.PG.Tests.AppliedPhysics" />
+			
+			<class name="com.PG.Tests.AppliedPhysicsAndBallastics" />
+			
+			<class name="com.PG.Tests.AppliedPsychology" />
+
+			<class name="com.PG.Tests.BioChemistry" />
+
+			<class name="com.PG.Tests.BioInformatics" />
+
+			<!-- <class name="com.PG.Tests.BioScienceAndBioInformatics" /> -->
+
+			<class name="com.PG.Tests.BioTechnology" />
+			
+			<class name="com.PG.Tests.Botany" />
+			
+			<!-- <class name="com.PG.Tests.BusinessEconomics" /> -->
+			
+			<class name="com.PG.Tests.Chemistry" />
+
+			<class name="com.PG.Tests.ClinicalPsychology" />
+			
+			<class name="com.PG.Tests.Commerce" />
+			
+			<class name="com.PG.Tests.EarthScience" />
+
+			<class name="com.PG.Tests.Economics" />
+			
+			<class name="com.PG.Tests.Education" />
+			
+			<class name="com.PG.Tests.ElectronicsAndTelecommunication" />
+
+			<class name="com.PG.Tests.ElectronicsScience" />
+			
+			<class name="com.PG.Tests.English" />
+
+			<class name="com.PG.Tests.EnvironmentalScience" />
+			
+			<class name="com.PG.Tests.EnvironmentalEconomics" />
+			
+			<class name="com.PG.Tests.GenderStudies" />
+			
+			<class name="com.PG.Tests.Geography" />
+			
+			<class name="com.PG.Tests.Geology" />
+			
+			<class name="com.PG.Tests.HomeScience" />
+			
+			<class name="com.PG.Tests.History" />
+			
+			<class name="com.PG.Tests.Hindi" />
+			
+			<class name="com.PG.Tests.IndustrialChemistry" />
+
+			<class name="com.PG.Tests.IndustrialMicroBiology" />
+			
+			<class name="com.PG.Tests.IRPMorPMIR" />
+			
+			<class name="com.PG.Tests.JournalismAndMassCommunication" />
+			
+			<class name="com.PG.Tests.LibraryAndInformationScience" />
+			
+			<class name="com.PG.Tests.LifeScience" />
+			
+			<class name="com.PG.Tests.Linguistics" />
+			
+			<class name="com.PG.Tests.LLMHumanRights" />
+			
+			<class name="com.PG.Tests.Law" />
+			
+			<!--<class name="com.PG.Tests.LibraryScienceDepartment" /> -->
+			
+			<class name="com.PG.Tests.MCOMEntrepreneurship" />
+
+			<class name="com.PG.Tests.MarineScienceMarineBiology" />
+
+			<class name="com.PG.Tests.MarineScienceOceanography" />
+					
+			<!-- <class name="com.PG.Tests.MassCommunicationAndMediaTechnology" /> -->
+
+			<class name="com.PG.Tests.MaterialScience" />
+			
+			<class name="com.PG.Tests.Mathematics" />
+			
+			<!-- <class name="com.PG.Tests.MBABusinessEconomics" /> -->
+
+			<class name="com.PG.Tests.MBABusinessAdministration" />
+
+			<class name="com.PG.Tests.MBAFinancialManagement" />
+			
+			<class name="com.PG.Tests.MBARuralManagement" />
+
+			<!-- <class name="com.PG.Tests.MBATourismAndTravelManagement" /> -->
+
+			<class name="com.PG.Tests.MCA" />
+			
+			<class name="com.PG.Tests.MFC" />
+
+			<class name="com.PG.Tests.Microbiology" />
+			
+			<class name="com.PG.Tests.MasterInPublicHealth" />
+
+			<class name="com.PG.Tests.MSCComputerScience" />
+
+			<class name="com.PG.Tests.MSCInformationTechnology" />
+
+			<class name="com.PG.Tests.MSWMasterofSocialWork" />
+
+			<!-- <class name="com.PG.Tests.NaturalResourceManagementandGeoInformatics" /> -->
+			
+			<class name="com.PG.Tests.Odia" />
+
+			<class name="com.PG.Tests.Philosophy" />
+			
+			<class name="com.PG.Tests.PhilosophyAndCriticalThinking" />
+			
+			<class name="com.PG.Tests.Physics" />
+			
+			<class name="com.PG.Tests.PoliticalScience" />
+			
+			<class name="com.PG.Tests.PopulationStudies" />
+			
+			<class name="com.PG.Tests.Psychology" />
+			
+			<class name="com.PG.Tests.PublicAdministration" />
+			
+			<class name="com.PG.Tests.RemoteSensingAndGeographicInformationSystem" />
+
+			<class name="com.PG.Tests.RuralDevelopment" />
+
+			<class name="com.PG.Tests.Sanskrit" />
+			
+			<class name="com.PG.Tests.Santali" />
+			
+			<class name="com.PG.Tests.Sociology" />
+			
+			<class name="com.PG.Tests.Stastics" />
+			
+			<class name="com.PG.Tests.Urdu" />
+
+			<class name="com.PG.Tests.WildLifeAndBioDiversityConversation" />
+
+			<class name="com.PG.Tests.WomenStudies" />
+
+			<class name="com.PG.Tests.YogaAndNaturopathy" />
+
+			<class name="com.PG.Tests.Zoology" />
+			
+			<!--<class name="com.PG.Tests.BusinessAdministrationDepartment" />-->
+			
+			<class name="com.PG.Tests.FunctionalityofSameSubjectsInCoreAndElective" />
+			
+			<class name="com.PG.Tests.DisplayingofValidPGSubject" />
+				
+			<class name="com.PG.Tests.DifferentGraduates" />
+			
+			<class name="com.PG.Tests.SingleSubject" />
+			
+			<class name="com.PG.Tests.MultipleSubject" />
+			
+			<class name="com.PG.Tests.DuplicateSubject" />
+			
+		<!-- 	<class name="com.PG.Tests.NonAcceptanceOfFemaleCollegeExaminationCenter" /> -->
+			
+			<class name="com.PG.Tests.CGPADecimalValue" />
+			
+			<class name="com.PG.Tests.NonAcceptanceOfMoreThan3PGSubjects" />
+			
+			<!-- <class name="com.PG.Tests.NonAcceptanceofMoreThan10Options" /> -->
+			
+			<class name="com.PG.Tests.NonAcceptanceOfFemaleCollegePreference" />
+			
+			<class name="com.PG.Tests.NonAcceptanceOfDuplicateExamCenter" />
+			
+			<!--<class name="com.PG.Tests.ImageUploadWithInvalidFile" />
+			
+			<class name="com.PG.Tests.ImageUploadWithValidFile" />-->
+			
+			<class name="com.PG.Tests.MinimumPassPercentage" /> 
+			
+
+
+
+		</classes>
+	</test> 
+</suite> 
